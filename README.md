@@ -1,2 +1,2 @@
-# CalculatorCodeAcademyProject
+# CalculatorProject
 Code Academy Calculator Project

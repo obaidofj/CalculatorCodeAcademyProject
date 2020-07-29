@@ -105,7 +105,7 @@ function inputDigit(digit) {
     return;
   } else {
     calculator.displayValue =
-      displayValue === "" ? digit : displayValue + digit;
+      displayValue === "" ? digit : displayValue.toString() + digit;
     //console.log(calculator);
     calculator.inputDec = false;
     //alert("rr");

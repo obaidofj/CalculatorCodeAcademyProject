@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <div id="clmns">
+          <div id="rws">
+            <div>
+              <div class="btns">
+                <div>
+                  <input type="text" name="disp" id="dis" disabled />
+                </div>
+                <div>
+                  <button id="bn7" class="n" value="7">7</button
+                  ><button id="bn8" class="n" value="8">8</button
+                  ><button id="bn9" class="n" value="9">9</button>
+                </div>
+                <div>
+                  <button id="bn4" class="n" value="4">4</button
+                  ><button id="bn5" class="n" value="5">5</button
+                  ><button id="bn6" class="n" value="6">6</button>
+                </div>
+                <div>
+                  <button id="bn1" class="n" value="1">1</button
+                  ><button id="bn2" class="n" value="2">2</button
+                  ><button id="bn3" class="n" value="3">3</button>
+                </div>
+                <div>
+                  <button  id="bn0" class="n" value="0">0</button
+                  ><button  id="dot" class="n dec" value=".">.</button
+                  ><button  id="clear" class="n AC" value="AC">AC</button>
+                </div>
+                <div>
+                  <button id="eq" class="" value="eq">=</button>
+                </div>
+              </div>
+            </div>
+            <div class="btns">
+              <p id="resP1"></p>
+              <button id="opA" class="n n2 opera" value="+">+</button
+              ><button id="opS" class="n n2 opera" value="-">-</button
+              ><button id="opM" class="n n2 opera" value="*">*</button>
+              <button id="opD" class="n n2 opera" value="÷">÷</button>
+            </div>
+            <div class="btns">
+              <p id="resP2"></p>
+              <button id="shToD" class="n2 cnvbtns" value="">NIS to $</button
+              ><button id="DtoSh" class="n2 cnvbtns" value="">$ to NIS</button
+              ><button id="shToE" class="n2 cnvbtns" value="">
+                NIS to Euro
+              </button>
+              <button id="EtoSh" class="n2 cnvbtns" value="">
+                Euro to NIS
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/calc.js"></script>
+  </body>
+</html>
